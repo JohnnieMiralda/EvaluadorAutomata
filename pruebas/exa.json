@@ -1,0 +1,12 @@
+{
+    "alphabeto":["0","1"],
+    "estados":["A","B","C"],
+    "e_inicial":"A",
+    "e_final":["C"],
+    "transiciones":[
+        ["A","B","0"],
+        ["A","A","1"],
+        ["A","A","0"],
+        ["B","C","1"]
+    ]
+}

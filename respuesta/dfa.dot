@@ -1,0 +1,17 @@
+digraph  {
+0;
+2;
+5;
+237;
+567;
+0 -> 2  [label=a];
+0 -> 5  [label=b];
+2 -> 237  [label=a];
+2 -> 2  [label=b];
+5 -> 5  [label=a];
+5 -> 567  [label=b];
+237 -> 237  [label=a];
+237 -> 2  [label=b];
+567 -> 5  [label=a];
+567 -> 567  [label=b];
+}
